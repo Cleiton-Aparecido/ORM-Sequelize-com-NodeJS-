@@ -1,0 +1,28 @@
+{
+  "name": "orm-com-nodejs-api-com-sequelize-e-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  
+  "scripts": {
+    "dev": "nodemon ./public/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cleiton",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-generator": "^4.16.1",
+    "mariadb": "^3.0.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "sequelize": "^6.26.0",
+    "sequelize-cli": "^6.5.2"
+  }
+}
